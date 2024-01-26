@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+}
+
+.logo{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 60%;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #b6dcfd;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: none;
+    transition: all .5s ease-in-out;
+}
+
+.bars:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.header_btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_btns button{
+    background-color: #104cba;
+    color: white;
+}
+
+.title_h4{
+    font-size: 15px;
+    color: #104cba;
+}
+
+.title_h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #7e9dd72b;
+}
+
+.hero_detail{
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero_detail h1{
+    font-size: 3.4rem;
+    line-height: 3.45rem;
+    margin-bottom: 30px;
+}
+
+.hero_detail h1 span{
+    color: #104cba;
+}
+
+.hero_detail p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero_btns{
+    display: flex;
+    gap: 40px;
+}
+
+.hero_btns button,
+.header_btns button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+
+}
+
+.header_btns button:hover{
+    padding-left: 30px;
+    width: 220px;
+}
+
+.hero_btns button:first-child{
+    background-color: #104cba;
+    color: #fff;
+}
+
+.hero_btns button:first-child:hover{
+    background-color: #000;
+}
+
+.hero_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_img img{
+    width: 80%;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #7e9dd7;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 0;
+}
+
+.circle2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #b6dcfd;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    z-index: 0;
+}
+
+.blop{
+    position: absolute;
+    width: 50% !important;
+    z-index: -1;
+}
